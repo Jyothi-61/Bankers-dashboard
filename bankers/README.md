@@ -1,5 +1,6 @@
 # Bankers
 Bankers Dashboard: https://leelatirumalkotti.github.io/Bankers/#/
+Admin Dashboard: https://adminportal-inky.vercel.app/#/
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
 
