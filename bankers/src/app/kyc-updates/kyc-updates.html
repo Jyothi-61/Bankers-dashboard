@@ -1,0 +1,10 @@
+<div *ngIf="customerProfiles.length==0">
+  <h3 class="text-center">No Kyc Pendings</h3>
+</div>
+<div *ngFor="let profile of customerProfiles" class="container-fluid bg-">
+  <app-profiles 
+    [profile]="profile" 
+    (statusChange)="updateKycStatus($event.id, $event.status)">
+  </app-profiles></div>
+
+<p></p>
